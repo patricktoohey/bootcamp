@@ -1,0 +1,76 @@
+﻿body {
+  font-size: 100%;
+}
+h1 {
+  font-size: 2.25em;
+  padding-left: 2%;
+}
+h2 {
+  font-size: 1.6em;
+}
+#mt-logo {
+  font-family: 'ITCAvantGardeW01-CnBd';
+  font-size: 1.6em;
+}
+header {
+  background-color: #004494;
+  width: 100%;
+  color: white;
+  font-family: 'ITCAvantGardeW01-CnBk';
+  height: 5em;
+  padding-top: 3em;
+}
+section {
+  clear: both;
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+li {
+  line-height: 150%;
+}
+hr {
+  border-color: #6ab023;
+  background-color: #6ab023;
+  border: none;
+  height: 0.1em;
+  max-width: 1000px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+footer {
+  background-color: #004494;
+  color: white;
+  width: 100%;
+}
+#footer-content {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+div header {
+  background-color: #004494;
+}
+.product-line {
+  font-family: 'ITCAvantGardeW01-CnBd';
+}
+#menu {
+  padding-bottom: 1em;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #004494;
+}
+#logo {
+  width: 73%;
+  float: left;
+  background-color: #004494;
+}
+nav {
+  width: 25%;
+  float: left;
+  background-color: #004494;
+  padding-top: -3em;
+}
+/*# sourceMappingURL=bootcamp.css.map */
