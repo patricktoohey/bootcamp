@@ -6,17 +6,42 @@
 
 @max-width: 1000px;
 
+.left-edge {
+    padding-left: 2%;
+}
+
+.local {
+    border-bottom-width: 1px;
+    padding-bottom: 0;
+    border-bottom-style: solid;
+    display: inline;
+}
+
 body {
     font-size: 100%;
 }
 
 h1 {
     font-size: 2.25em;    
-    padding-left: 2%;
+    .left-edge;   
 }
 
 h2 {
     font-size: 1.6em;
+    .left-edge;
+}
+
+h3 {
+    .left-edge;
+    font-family: @mt-bold;
+    color: @mt-blue;
+}
+
+a {
+    .left-edge;
+    font-family: @mt-bold;
+    color: @mt-blue;
+    text-decoration: none;
 }
 
 #mt-logo {
@@ -29,8 +54,8 @@ header {
     width: 100%;
     color: white;
     font-family: @mt-book;
-    height: 5em;
-    padding-top: 3em;
+    overflow: hidden;
+    clear: both;
 }
 
 section {
@@ -87,13 +112,29 @@ div header {
     width: 73%;
     float: left;
     background-color: @mt-blue;
+    padding-top: 3em;
 }
 
 nav {
     width: 25%;
     float: left;
     background-color: @mt-blue;
-    padding-top: -3em;
 }
 
+.concept-link {
+    font-family: @mt-bold;
+    font-size: 1.6em;
+    color: @mt-blue;
+    .left-edge;
+}
+
+.concept-break {
+    background-color: @mt-green;
+    height: 2em;
+    width: 100%;
+}
+
+.concept-break p {
+    color: white;    
+}
 

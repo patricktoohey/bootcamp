@@ -1,4 +1,13 @@
-﻿body {
+﻿.left-edge {
+  padding-left: 2%;
+}
+.local {
+  border-bottom-width: 1px;
+  padding-bottom: 0;
+  border-bottom-style: solid;
+  display: inline;
+}
+body {
   font-size: 100%;
 }
 h1 {
@@ -7,6 +16,18 @@ h1 {
 }
 h2 {
   font-size: 1.6em;
+  padding-left: 2%;
+}
+h3 {
+  padding-left: 2%;
+  font-family: 'ITCAvantGardeW01-CnBd';
+  color: #004494;
+}
+a {
+  padding-left: 2%;
+  font-family: 'ITCAvantGardeW01-CnBd';
+  color: #004494;
+  text-decoration: none;
 }
 #mt-logo {
   font-family: 'ITCAvantGardeW01-CnBd';
@@ -17,8 +38,8 @@ header {
   width: 100%;
   color: white;
   font-family: 'ITCAvantGardeW01-CnBk';
-  height: 5em;
-  padding-top: 3em;
+  overflow: hidden;
+  clear: both;
 }
 section {
   clear: both;
@@ -66,11 +87,25 @@ div header {
   width: 73%;
   float: left;
   background-color: #004494;
+  padding-top: 3em;
 }
 nav {
   width: 25%;
   float: left;
   background-color: #004494;
-  padding-top: -3em;
+}
+.concept-link {
+  font-family: 'ITCAvantGardeW01-CnBd';
+  font-size: 1.6em;
+  color: #004494;
+  padding-left: 2%;
+}
+.concept-break {
+  background-color: #6ab023;
+  height: 2em;
+  width: 100%;
+}
+.concept-break p {
+  color: white;
 }
 /*# sourceMappingURL=bootcamp.css.map */
