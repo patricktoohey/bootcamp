@@ -7,6 +7,15 @@
   border-bottom-style: solid;
   display: inline;
 }
+.tutorial-link {
+  width: 31%;
+  margin-left: 1%;
+  margin-right: 1%;
+  float: left;
+  background-color: #cccccc;
+  height: 9em;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+}
 body {
   font-size: 100%;
 }
@@ -71,7 +80,7 @@ footer {
   width: 100%;
 }
 #footer-content {
-  max-width: 1000px;
+  max-width: 1020px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -83,7 +92,7 @@ div header {
 }
 #menu {
   padding-bottom: 1em;
-  max-width: 1000px;
+  max-width: 1020px;
   margin-left: auto;
   margin-right: auto;
   background-color: #004494;
@@ -109,6 +118,8 @@ nav {
   background-color: #6ab023;
   height: 2em;
   width: 100%;
+  clear: both;
+  margin-top: 9em;
 }
 .concept-break p {
   color: white;

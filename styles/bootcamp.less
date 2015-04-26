@@ -1,10 +1,11 @@
 ﻿@mt-blue: #004494;
 @mt-green: #6AB023;
+@grey-20-percent: #CCCCCC;
 
 @mt-book: 'ITCAvantGardeW01-CnBk';
 @mt-bold: 'ITCAvantGardeW01-CnBd';
 
-@max-width: 1000px;
+@max-width: 1020px;
 
 .left-edge {
     padding-left: 2%;
@@ -15,6 +16,16 @@
     padding-bottom: 0;
     border-bottom-style: solid;
     display: inline;
+}
+
+.tutorial-link {
+    width: 31%;
+    margin-left: 1%;
+    margin-right: 1%;
+    float: left;
+    background-color: @grey-20-percent;
+    height: 9em;
+    box-shadow: 2px 2px 5px fade(black, 75%);
 }
 
 body {
@@ -138,6 +149,8 @@ nav {
     background-color: @mt-green;
     height: 2em;
     width: 100%;
+    clear: both;
+    margin-top: 9em;
 }
 
 .concept-break p {
