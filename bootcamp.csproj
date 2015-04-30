@@ -20,6 +20,8 @@
   <ItemGroup>
     <Content Include="faq.html" />
     <Content Include="glossary.html" />
+    <Content Include="basics.html" />
+    <Content Include="svg\handling.svg" />
     <Content Include="tutorials.html" />
     <Content Include="index.html" />
     <Content Include="styles\bootcamp.css">
@@ -44,6 +46,7 @@
       <DependentUpon>web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
   </PropertyGroup>

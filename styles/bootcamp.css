@@ -9,12 +9,13 @@
 }
 .tutorial-link {
   width: 31%;
-  margin-left: 1%;
-  margin-right: 1%;
   float: left;
   background-color: #cccccc;
-  height: 9em;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+  margin: 1em 1%;
+}
+.tutorial-links {
+  margin-bottom: 3em;
 }
 body {
   font-size: 100%;
@@ -26,11 +27,32 @@ h1 {
 h2 {
   font-size: 1.6em;
   padding-left: 2%;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 h3 {
   padding-left: 2%;
   font-family: 'ITCAvantGardeW01-CnBd';
   color: #004494;
+}
+h4 {
+  padding-left: 2%;
+  font-family: 'ITCAvantGardeW01-CnBd';
+  color: #004494;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+img {
+  background: white;
+}
+#search {
+  background: white;
+  height: 2em;
+  margin-top: 0.5em;
+}
+p {
+  line-height: 120%;
+  padding-left: 2%;
 }
 a {
   padding-left: 2%;
@@ -42,6 +64,13 @@ nav a {
   padding-left: 0;
   color: white;
   font-family: 'ITCAvantGardeW01-CnBk';
+}
+.tutorial-link a {
+  padding-left: 0;
+  text-align: center;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  display: block;
 }
 #mt-logo {
   font-family: 'ITCAvantGardeW01-CnBd';
@@ -62,7 +91,7 @@ section {
   margin-left: auto;
   margin-right: auto;
 }
-li {
+nav li {
   line-height: 150%;
 }
 hr {
@@ -102,11 +131,13 @@ div header {
   float: left;
   background-color: #004494;
   padding-top: 3em;
+  padding-bottom: 1em;
 }
 nav {
   width: 25%;
   float: left;
   background-color: #004494;
+  padding-top: 0.5em;
 }
 .concept-link {
   font-family: 'ITCAvantGardeW01-CnBd';
@@ -119,9 +150,13 @@ nav {
   height: 2em;
   width: 100%;
   clear: both;
-  margin-top: 9em;
 }
 .concept-break p {
   color: white;
+  position: absolute;
+  right: 0;
+  max-width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*# sourceMappingURL=bootcamp.css.map */
