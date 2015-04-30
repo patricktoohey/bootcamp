@@ -184,3 +184,5 @@ FakesAssemblies/
 
 # Removed Content
 removed_content/
+
+*.bak
