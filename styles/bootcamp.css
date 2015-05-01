@@ -109,8 +109,14 @@ section {
 a:hover {
   /*font-family: @mt-bold;*/
 }
+li {
+  padding-left: 2%;
+  text-indent: -2%;
+}
 nav li {
   line-height: 150%;
+  padding-left: 0;
+  text-indent: 0;
 }
 hr {
   border-color: #6ab023;
@@ -161,9 +167,8 @@ nav {
   background-color: #004494;
   padding-top: 0.5em;
 }
-.concept-link {
+.content-link {
   font-family: 'ITCAvantGardeW01-CnBd';
-  font-size: 1.6em;
   color: #004494;
   padding-left: 2%;
 }
