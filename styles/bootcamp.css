@@ -112,11 +112,13 @@ a:hover {
 li {
   padding-left: 2%;
   text-indent: -2%;
+  padding-bottom: 0.8em;
 }
 nav li {
   line-height: 150%;
   padding-left: 0;
   text-indent: 0;
+  padding-bottom: 0;
 }
 hr {
   border-color: #6ab023;
