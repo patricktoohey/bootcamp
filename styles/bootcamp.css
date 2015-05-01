@@ -35,8 +35,8 @@ h1 {
 h2 {
   font-size: 1.6em;
   padding-left: 2%;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 1.5em;
+  margin-bottom: 0.6em;
 }
 h3 {
   padding-left: 2%;
@@ -140,6 +140,7 @@ hr {
   max-width: 1020px;
   margin-left: 2%;
   margin-right: 2%;
+  margin-top: 1.5em;
 }
 footer {
   background-color: #004494;
@@ -192,6 +193,7 @@ nav {
   overflow: hidden;
   height: 2em;
   font-family: 'ITCAvantGardeW01-CnBk';
+  margin-top: 1.5em;
 }
 .concept-break a {
   font-family: 'ITCAvantGardeW01-CnBk';
