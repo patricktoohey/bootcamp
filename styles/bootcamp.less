@@ -11,6 +11,11 @@
     padding-left: 2%;
 }
 
+.full-scale {
+    width: 96%;
+    max-width: @max-width;
+}
+
 .local {
     border-bottom-width: 1px;
     padding-bottom: 0;
@@ -62,12 +67,15 @@ h4 {
 
 img {
     background: white;
+    max-height: 224px;
 }
 
 #search {
     background: white;
     height: 2em;
     margin-top: 0.5em;
+    font-family: @mt-book;
+    font-size: 1em;
 }
 
 p {
@@ -112,10 +120,14 @@ header {
 
 section {
     clear: both;
-    width: 100%;
-    max-width: 1000px;
+    .full-scale;
     margin-left: auto;
     margin-right: auto;
+}
+
+a:hover:after {
+    /*content: "\00a0 \27a4";*/
+    content: "\00a0 \2771";
 }
 
 nav li {
@@ -127,7 +139,7 @@ hr {
     background-color: @mt-green;
     border: none;
     height: 0.1em;
-    max-width: 1000px;
+    .full-scale;
     margin-left: 2%;
     margin-right: 2%;
 }
@@ -154,7 +166,7 @@ div header {
 
 #menu {
     padding-bottom: 1em;
-    max-width: @max-width;
+    .full-scale;
     margin-left: auto;
     margin-right: auto;
     background-color: @mt-blue;
@@ -196,5 +208,27 @@ nav {
     max-width: @max-width;
     margin-left: auto;
     margin-right: auto;   
+}
+
+/* Adjust mobile type settings based on common standard */
+@media screen and (max-width: 330px) {
+    #logo {
+        width: 96%;
+        .left-edge;
+    }
+
+    nav {
+        width: 96%;
+        .left-edge;
+    }
+
+    .tutorial-link {
+        width: 96%;
+    }
+
+    #search {
+        width: 96%;
+        margin-bottom: 1em;
+    }
 }
 
