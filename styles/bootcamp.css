@@ -103,9 +103,8 @@ section {
   margin-left: auto;
   margin-right: auto;
 }
-a:hover:after {
-  /*content: "\00a0 \27a4";*/
-  content: "\00a0 \2771";
+a:hover {
+  /*font-family: @mt-bold;*/
 }
 nav li {
   line-height: 150%;
