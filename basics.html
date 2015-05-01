@@ -13,6 +13,7 @@
     <link type="text/css" rel="stylesheet" href="styles/bootcamp.css" />
 </head>
 <body>
+    <div id="container">
     <header>
         <div id="menu">
             <div id="logo">
@@ -24,6 +25,13 @@
                     <li><a href="tutorials.html">Tutorials</a></li>
                     <li><a href="faq.html">FAQ</a></li>
                     <li><a href="glossary.html">Glossary</a></li>
+                        <li>
+                            <form method="get" id="searchform" action="faq.html">
+                                <input type="text" placeholder="Search"
+                                       name="search" id="search" />
+                                <input type="submit" id="searchsubmit" value="OK" />
+                            </form>
+                        </li>
                 </ul>
             </nav>
         </div>
@@ -101,5 +109,6 @@
             <h1 id="mt-logo">METTLER TOLEDO</h1>
         </div>
     </footer>
+    </div>
 </body>
 </html>
