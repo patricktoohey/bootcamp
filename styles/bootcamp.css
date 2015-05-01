@@ -71,12 +71,15 @@ a {
   color: #004494;
   text-decoration: none;
 }
+a.tutorial-link {
+  padding-left: 0;
+}
 nav a {
   padding-left: 0;
   color: white;
   font-family: 'ITCAvantGardeW01-CnBk';
 }
-.tutorial-link a {
+.tutorial-link p {
   padding-left: 0;
   text-align: center;
   padding-bottom: 0.5em;
@@ -128,6 +131,8 @@ footer {
   max-width: 1020px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 div header {
   background-color: #004494;
