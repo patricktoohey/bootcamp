@@ -15,68 +15,68 @@
 </head>
 <body>
     <div id="container">
-    <header>
-        <div id="menu">
-            <div id="logo">
-                <h1 class="product-line">Starweigh</h1>
-                <h1>Boot Camp</h1>
-                    <img id="menu-icon" src="images/menu.png"  />
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="tutorials.html">Tutorials</a></li>
-                    <li class="local"><a href="faq.html">FAQ</a></li>
-                    <li><a href="glossary.html">Glossary</a></li>
+        <header>
+            <div id="menu">
+                <div id="logo">
+                    <h1 class="product-line">Starweigh</h1>
+                    <h1>Boot Camp</h1>
+                    <img id="menu-icon" src="images/menu.png" />
+                </div>
+                <nav>
+                    <ul id="navigation">
+                        <li><a href="tutorials.html">Tutorials</a></li>
+                        <li class="local"><a href="faq.html">FAQ</a></li>
+                        <li><a href="glossary.html">Glossary</a></li>
                     </ul>
-                            <form method="get" id="searchform" action="faq.html">
-                                <input type="text" placeholder="Search"
-                                       name="search" id="search" />
-                                <input type="submit" id="searchsubmit" value="OK" />
-                            </form>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <section>
-            <h2>FAQ</h2>
-            <ul>
-                <li><a class="content-link" href="#no-rejects">The items are weighed, but not rejected. What should I check?</a></li>
-                <li><a class="content-link" href="#clear-wheel">The production run has ended and there are still items in the wheel. How do I get them out?</a></li>
-                <li><a class="content-link" href="#photo-reject">The system stopped due to a photogated reject fault. I removed the items at the rejecter, but the system stopped again when the next pocket unloaded. What am I doing wrong?</a></li>
-            </ul>
-            <hr />
-            <h4 id="no-rejects">The items are weighed, but not rejected. What should I check?</h4>
-            <p>
-                If the customer has supplied the conveyor, the checkweigher may
-                not be controlling the conveyor speed. Verify through the HMI
-                that the expected speed is set appropriately to a value greater
-                than zero.
-            </p>
-            <h4 id="clear-wheel">The production run has ended and there are still items in the wheel. How do I get them out?</h4>
-            <p>
-                The HMI includes a Clear Wheel action, which will index the
-                wheel automatically to transfer all items to the outfeed.
-            </p>
-            <h4 id="photo-reject">The system stopped due to a photogated reject fault. I removed the items at the rejecter, but the system stopped again when the next pocket unloaded. What am I doing wrong?</h4>
-            <p>
-                When a photogated reject fault occurs, the system does not know
-                if the missing item simply slipped on the conveyor or has
-                fallen off. Accordingly, the control will invalidate all items
-                on the outfeed conveyor. If items on the outfeed conveyor are
-                not removed, the will be detected as extra items when the belts
-                are restarted. The transfer point from the wheel to the
-                conveyor is machine dependent.
-            </p>
-        </section>
-        <div class="concept-break">
-            <a>Back to top</a>
-        </div>
-    </main>
-    <footer>
-        <div id="footer-content">
-            <h1 id="mt-logo">METTLER TOLEDO</h1>
-        </div>
-    </footer>
+                    <form method="get" id="searchform" action="faq.html">
+                        <input type="text" placeholder="Search"
+                               name="search" id="search" />
+                        <input type="submit" id="searchsubmit" value="OK" />
+                    </form>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section>
+                <h2>FAQ</h2>
+                <ul>
+                    <li><a class="content-link" href="#no-rejects">The items are weighed, but not rejected. What should I check?</a></li>
+                    <li><a class="content-link" href="#clear-wheel">The production run has ended and there are still items in the wheel. How do I get them out?</a></li>
+                    <li><a class="content-link" href="#photo-reject">The system stopped due to a photogated reject fault. I removed the items at the rejecter, but the system stopped again when the next pocket unloaded. What am I doing wrong?</a></li>
+                </ul>
+                <hr />
+                <h4 id="no-rejects">The items are weighed, but not rejected. What should I check?</h4>
+                <p>
+                    If the customer has supplied the conveyor, the checkweigher may
+                    not be controlling the conveyor speed. Verify through the HMI
+                    that the expected speed is set appropriately to a value greater
+                    than zero.
+                </p>
+                <h4 id="clear-wheel">The production run has ended and there are still items in the wheel. How do I get them out?</h4>
+                <p>
+                    The HMI includes a Clear Wheel action, which will index the
+                    wheel automatically to transfer all items to the outfeed.
+                </p>
+                <h4 id="photo-reject">The system stopped due to a photogated reject fault. I removed the items at the rejecter, but the system stopped again when the next pocket unloaded. What am I doing wrong?</h4>
+                <p>
+                    When a photogated reject fault occurs, the system does not know
+                    if the missing item simply slipped on the conveyor or has
+                    fallen off. Accordingly, the control will invalidate all items
+                    on the outfeed conveyor. If items on the outfeed conveyor are
+                    not removed, the will be detected as extra items when the belts
+                    are restarted. The transfer point from the wheel to the
+                    conveyor is machine dependent.
+                </p>
+            </section>
+            <div class="concept-break">
+                <a>Back to top</a>
+            </div>
+        </main>
+        <footer>
+            <div id="footer-content">
+                <h1 id="mt-logo">METTLER TOLEDO</h1>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
