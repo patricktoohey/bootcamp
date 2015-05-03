@@ -16,13 +16,6 @@
     max-width: @max-width;
 }
 
-.local {
-    border-bottom-width: 1px;
-    padding-bottom: 0;
-    border-bottom-style: solid;
-    display: inline;
-}
-
 .tutorial-link {
     width: 31%;
     float: left;
@@ -43,9 +36,11 @@ body {
     font-family: @mt-book;
 }
 
-h1 {
+h1 a{
     font-size: 2.25em;
     .left-edge;
+    color: white;
+    font-family: @mt-book;
 }
 
 h2 {
@@ -118,6 +113,10 @@ nav a {
     font-family: @mt-book;
 }
 
+.local {
+    font-family: @mt-bold;
+}
+
 .tutorial-link p {
     padding-left: 0;
     text-align: center;
@@ -148,8 +147,15 @@ section {
     margin-right: auto;
 }
 
-a:hover {
-    /*font-family: @mt-bold;*/
+nav a:hover {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-bottom: 0;
+    display: inline;
+}
+
+h1 a:hover {
+    border-bottom-style: none;
 }
 
 li {
@@ -195,7 +201,7 @@ div header {
     background-color: @mt-blue;
 }
 
-.product-line {
+h1.product-line a{
     font-family: @mt-bold;
 }
 
