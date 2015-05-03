@@ -21,6 +21,8 @@
     <Content Include="faq.html" />
     <Content Include="glossary.html" />
     <Content Include="basics.html" />
+    <Content Include="images\menu.png" />
+    <Content Include="script\bootcamp.js" />
     <Content Include="svg\handling.svg" />
     <Content Include="tutorials.html" />
     <Content Include="index.html" />

@@ -207,6 +207,14 @@ nav {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
+#menu-icon {
+  position: absolute;
+  display: none;
+  right: 1em;
+  top: 4em;
+  cursor: pointer;
+  background: none;
+}
 /* Adjust mobile type settings based on common standard */
 @media screen and (max-width: 330px) {
   #logo {
@@ -222,6 +230,13 @@ nav {
   #search {
     width: 96%;
     margin-bottom: 1em;
+  }
+  #menu-icon {
+    display: block !important;
+  }
+  #navigation {
+    height: 0;
+    display: none;
   }
 }
 /*# sourceMappingURL=bootcamp.css.map */
