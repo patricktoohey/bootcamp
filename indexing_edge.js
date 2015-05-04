@@ -30,7 +30,7 @@
                         {
                             id: 'Rectangle',
                             type: 'rect',
-                            rect: ['0px', '180px', '522px', '40px', 'auto', 'auto'],
+                            rect: ['0px', '180px', '550px', '40px', 'auto', 'auto'],
                             fill: ["rgba(229,229,229,1.00)"],
                             stroke: [0,"rgba(0,0,0,1)","none"]
                         },
@@ -53,11 +53,20 @@
                         {
                             id: 'Item12',
                             type: 'ellipse',
-                            rect: ['141px', '187px', '27px', '27px', 'auto', 'auto'],
+                            rect: ['320px', '187px', '27px', '27px', 'auto', 'auto'],
                             borderRadius: ["50%", "50%", "50%", "50%"],
                             fill: ["rgba(192,192,192,1)"],
                             stroke: [0,"rgb(0, 0, 0)","none"],
                             transform: [[],['-30'],[],[],['490%']]
+                        },
+                        {
+                            id: 'Item11',
+                            type: 'ellipse',
+                            rect: ['141px', '187px', '27px', '27px', 'auto', 'auto'],
+                            borderRadius: ["50%", "50%", "50%", "50%"],
+                            fill: ["rgba(192,192,192,1)"],
+                            stroke: [0,"rgb(0, 0, 0)","none"],
+                            transform: [[],[],[],[],['490%']]
                         },
                         {
                             id: 'Item2',
@@ -75,7 +84,7 @@
                             borderRadius: ["50%", "50%", "50%", "50%"],
                             fill: ["rgba(192,192,192,1)"],
                             stroke: [0,"rgb(0, 0, 0)","none"],
-                            transform: [[],[],[],[],['490%']]
+                            transform: [[],['-90'],[],[],['490%']]
                         },
                         {
                             id: 'Item4',
@@ -106,7 +115,7 @@
                     }
                 },
                 timeline: {
-                    duration: 5000,
+                    duration: 6750,
                     autoPlay: true,
                     data: [
                         [
@@ -170,14 +179,44 @@
                             '-60deg'
                         ],
                         [
-                            "eid114",
+                            "eid179",
                             "rotateZ",
+                            5000,
+                            0,
+                            "linear",
+                            "${Item3}",
+                            '-60deg',
+                            '-60deg'
+                        ],
+                        [
+                            "eid192",
+                            "rotateZ",
+                            5250,
+                            1000,
+                            "linear",
+                            "${Item3}",
+                            '-60deg',
+                            '-90deg'
+                        ],
+                        [
+                            "eid82",
+                            "left",
                             0,
                             0,
                             "linear",
-                            "${Item5}",
-                            '0deg',
-                            '0deg'
+                            "${Item2}",
+                            '109px',
+                            '109px'
+                        ],
+                        [
+                            "eid88",
+                            "left",
+                            1170,
+                            80,
+                            "linear",
+                            "${Item2}",
+                            '109px',
+                            '141px'
                         ],
                         [
                             "eid94",
@@ -218,6 +257,26 @@
                             "${Item1}",
                             '187px',
                             '187px'
+                        ],
+                        [
+                            "eid225",
+                            "left",
+                            0,
+                            0,
+                            "linear",
+                            "${Item11}",
+                            '-30px',
+                            '-30px'
+                        ],
+                        [
+                            "eid216",
+                            "left",
+                            6000,
+                            500,
+                            "linear",
+                            "${Item11}",
+                            '-30px',
+                            '141px'
                         ],
                         [
                             "eid109",
@@ -310,14 +369,74 @@
                             '-150deg'
                         ],
                         [
-                            "eid57",
-                            "left",
+                            "eid173",
+                            "rotateZ",
+                            5250,
+                            1000,
+                            "linear",
+                            "${Item12}",
+                            '-150deg',
+                            '-180deg'
+                        ],
+                        [
+                            "eid74",
+                            "rotateZ",
                             0,
+                            1250,
+                            "linear",
+                            "${Item1}",
+                            '0deg',
+                            '-30deg'
+                        ],
+                        [
+                            "eid77",
+                            "rotateZ",
+                            1500,
+                            1000,
+                            "linear",
+                            "${Item1}",
+                            '-30deg',
+                            '-60deg'
+                        ],
+                        [
+                            "eid80",
+                            "rotateZ",
+                            2750,
+                            1000,
+                            "linear",
+                            "${Item1}",
+                            '-60deg',
+                            '-90deg'
+                        ],
+                        [
+                            "eid136",
+                            "rotateZ",
+                            4000,
+                            1000,
+                            "linear",
+                            "${Item1}",
+                            '-90deg',
+                            '-120deg'
+                        ],
+                        [
+                            "eid178",
+                            "rotateZ",
+                            5000,
                             0,
                             "linear",
                             "${Item1}",
-                            '141px',
-                            '141px'
+                            '-120deg',
+                            '-120deg'
+                        ],
+                        [
+                            "eid198",
+                            "rotateZ",
+                            5250,
+                            1000,
+                            "linear",
+                            "${Item1}",
+                            '-120deg',
+                            '-150deg'
                         ],
                         [
                             "eid149",
@@ -328,16 +447,6 @@
                             "${Item12}",
                             '187px',
                             '187px'
-                        ],
-                        [
-                            "eid150",
-                            "left",
-                            0,
-                            0,
-                            "linear",
-                            "${Item12}",
-                            '141px',
-                            '141px'
                         ],
                         [
                             "eid111",
@@ -378,6 +487,36 @@
                             "${Item4}",
                             '110px',
                             '141px'
+                        ],
+                        [
+                            "eid214",
+                            "top",
+                            0,
+                            0,
+                            "linear",
+                            "${Item11}",
+                            '187px',
+                            '187px'
+                        ],
+                        [
+                            "eid114",
+                            "rotateZ",
+                            0,
+                            0,
+                            "linear",
+                            "${Item5}",
+                            '0deg',
+                            '0deg'
+                        ],
+                        [
+                            "eid190",
+                            "rotateZ",
+                            5250,
+                            1000,
+                            "linear",
+                            "${Item5}",
+                            '0deg',
+                            '-30deg'
                         ],
                         [
                             "eid84",
@@ -430,44 +569,104 @@
                             '-90deg'
                         ],
                         [
-                            "eid74",
+                            "eid177",
+                            "rotateZ",
+                            5000,
+                            0,
+                            "linear",
+                            "${Item2}",
+                            '-90deg',
+                            '-90deg'
+                        ],
+                        [
+                            "eid199",
+                            "rotateZ",
+                            5250,
+                            1000,
+                            "linear",
+                            "${Item2}",
+                            '-90deg',
+                            '-120deg'
+                        ],
+                        [
+                            "eid3",
                             "rotateZ",
                             0,
                             1250,
                             "linear",
-                            "${Item1}",
+                            "${wheel_12_12}",
                             '0deg',
                             '-30deg'
                         ],
                         [
-                            "eid77",
+                            "eid8",
                             "rotateZ",
                             1500,
                             1000,
                             "linear",
-                            "${Item1}",
+                            "${wheel_12_12}",
                             '-30deg',
                             '-60deg'
                         ],
                         [
-                            "eid80",
+                            "eid7",
+                            "rotateZ",
+                            2500,
+                            0,
+                            "linear",
+                            "${wheel_12_12}",
+                            '-60deg',
+                            '-60deg'
+                        ],
+                        [
+                            "eid9",
                             "rotateZ",
                             2750,
                             1000,
                             "linear",
-                            "${Item1}",
+                            "${wheel_12_12}",
                             '-60deg',
                             '-90deg'
                         ],
                         [
-                            "eid136",
+                            "eid134",
                             "rotateZ",
                             4000,
                             1000,
                             "linear",
-                            "${Item1}",
+                            "${wheel_12_12}",
                             '-90deg',
                             '-120deg'
+                        ],
+                        [
+                            "eid175",
+                            "rotateZ",
+                            5000,
+                            0,
+                            "linear",
+                            "${wheel_12_12}",
+                            '-120deg',
+                            '-120deg'
+                        ],
+                        [
+                            "eid197",
+                            "rotateZ",
+                            5250,
+                            1000,
+                            "linear",
+                            "${wheel_12_12}",
+                            '-120deg',
+                            '-150deg'
+                        ],
+                        [
+                            "eid57",
+                            "left",
+                            0,
+                            0,
+                            "linear",
+                            "${Item1}",
+                            '141px',
+                            '141px'
                         ],
                         [
                             "eid110",
@@ -490,24 +689,34 @@
                             '-30deg'
                         ],
                         [
-                            "eid82",
-                            "left",
-                            0,
+                            "eid181",
+                            "rotateZ",
+                            5000,
                             0,
                             "linear",
-                            "${Item2}",
-                            '109px',
-                            '109px'
+                            "${Item4}",
+                            '-30deg',
+                            '-30deg'
                         ],
                         [
-                            "eid88",
-                            "left",
-                            1170,
-                            80,
+                            "eid191",
+                            "rotateZ",
+                            5250,
+                            1000,
                             "linear",
-                            "${Item2}",
-                            '109px',
-                            '141px'
+                            "${Item4}",
+                            '-30deg',
+                            '-60deg'
+                        ],
+                        [
+                            "eid217",
+                            "rotateZ",
+                            0,
+                            0,
+                            "linear",
+                            "${Item11}",
+                            '0deg',
+                            '0deg'
                         ],
                         [
                             "eid112",
@@ -570,54 +779,24 @@
                             '141px'
                         ],
                         [
-                            "eid3",
-                            "rotateZ",
+                            "eid150",
+                            "left",
                             0,
-                            1250,
-                            "linear",
-                            "${wheel_12_12}",
-                            '0deg',
-                            '-30deg'
-                        ],
-                        [
-                            "eid8",
-                            "rotateZ",
-                            1500,
-                            1000,
-                            "linear",
-                            "${wheel_12_12}",
-                            '-30deg',
-                            '-60deg'
-                        ],
-                        [
-                            "eid7",
-                            "rotateZ",
-                            2500,
                             0,
                             "linear",
-                            "${wheel_12_12}",
-                            '-60deg',
-                            '-60deg'
+                            "${Item12}",
+                            '141px',
+                            '141px'
                         ],
                         [
-                            "eid9",
-                            "rotateZ",
-                            2750,
-                            1000,
+                            "eid205",
+                            "left",
+                            6250,
+                            500,
                             "linear",
-                            "${wheel_12_12}",
-                            '-60deg',
-                            '-90deg'
-                        ],
-                        [
-                            "eid134",
-                            "rotateZ",
-                            4000,
-                            1000,
-                            "linear",
-                            "${wheel_12_12}",
-                            '-90deg',
-                            '-120deg'
+                            "${Item12}",
+                            '141px',
+                            '320px'
                         ]
                     ]
                 }
