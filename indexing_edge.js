@@ -117,6 +117,9 @@
                 timeline: {
                     duration: 6750,
                     autoPlay: true,
+                    labels: {
+                        "FullWheel": 5250
+                    },
                     data: [
                         [
                             "eid96",

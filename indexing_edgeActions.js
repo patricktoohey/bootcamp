@@ -18,9 +18,24 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 4000, function(sym, e) {
-         // insert code here
+      
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 5250, function(sym, e) {
+         
          sym.play();
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 6750, function(sym, e) {
+         // insert code here
+         
+         // Play the timeline at a label or specific time. For example:
+         // sym.play(500); or sym.play("myLabel");
+         sym.play("FullWheel");
+         
+         
 
       });
       //Edge binding end
