@@ -24,6 +24,7 @@
     <Content Include="images\menu.png" />
     <Content Include="script\bootcamp.js" />
     <Content Include="svg\handling.svg" />
+    <Content Include="svg\wheel_composite.svg" />
     <Content Include="tutorials.html" />
     <Content Include="index.html" />
     <Content Include="styles\bootcamp.css">
