@@ -89,6 +89,7 @@ nav a {
   padding-left: 0;
   color: white;
   font-family: 'ITCAvantGardeW01-CnBk';
+  font-size: 1.33em;
 }
 .local {
   font-family: 'ITCAvantGardeW01-CnBd';
@@ -183,14 +184,14 @@ h1.product-line a {
   width: 73%;
   float: left;
   background-color: #004494;
-  padding-top: 3em;
+  padding-top: 4em;
   padding-bottom: 1em;
 }
 nav {
   width: 25%;
   float: left;
   background-color: #004494;
-  padding-top: 0.5em;
+  padding-top: 1em;
 }
 .content-link {
   font-family: 'ITCAvantGardeW01-CnBd';
@@ -237,6 +238,7 @@ nav {
   nav {
     width: 96%;
     padding-left: 2%;
+    padding-top: 0;
   }
   .tutorial-link {
     width: 96%;
