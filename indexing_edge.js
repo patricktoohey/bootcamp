@@ -25,27 +25,27 @@
                 scaleToFit: "width",
                 centerStage: "none",
                 resizeInstances: false,
-                bScaleToFitParent: true,
+				bScaleToFitParent: true,
                 content: {
                     dom: [
                         {
                             id: 'Rectangle',
                             type: 'rect',
-                            rect: ['0px', '180px', '550px', '40px', 'auto', 'auto'],
+                            rect: ['0px', '124px', '550px', '40px', 'auto', 'auto'],
                             fill: ["rgba(229,229,229,1.00)"],
                             stroke: [0,"rgba(0,0,0,1)","none"]
                         },
                         {
                             id: 'wheel_12_12',
                             type: 'image',
-                            rect: ['136px', '61px', '277px', '277px', 'auto', 'auto'],
+                            rect: ['136px', '5px', '277px', '277px', 'auto', 'auto'],
                             fill: ["rgba(0,0,0,0)",im+"wheel_12_1.svg",'0px','0px'],
                             transform: [[],['-30']]
                         },
                         {
                             id: 'Item1',
                             type: 'ellipse',
-                            rect: ['141px', '187px', '27px', '27px', 'auto', 'auto'],
+                            rect: ['141px', '131px', '27px', '27px', 'auto', 'auto'],
                             borderRadius: ["50%", "50%", "50%", "50%"],
                             fill: ["rgba(192,192,192,1)"],
                             stroke: [0,"rgb(0, 0, 0)","none"],
@@ -54,16 +54,16 @@
                         {
                             id: 'Item12',
                             type: 'ellipse',
-                            rect: ['320px', '187px', '27px', '27px', 'auto', 'auto'],
+                            rect: ['320px', '131px', '27px', '27px', 'auto', 'auto'],
                             borderRadius: ["50%", "50%", "50%", "50%"],
-                            fill: ["rgba(192,192,192,1)"],
+                            fill: ["rgba(192,192,192,1.00)"],
                             stroke: [0,"rgb(0, 0, 0)","none"],
                             transform: [[],['-30'],[],[],['490%']]
                         },
                         {
                             id: 'Item11',
                             type: 'ellipse',
-                            rect: ['141px', '187px', '27px', '27px', 'auto', 'auto'],
+                            rect: ['141px', '131px', '27px', '27px', 'auto', 'auto'],
                             borderRadius: ["50%", "50%", "50%", "50%"],
                             fill: ["rgba(192,192,192,1)"],
                             stroke: [0,"rgb(0, 0, 0)","none"],
@@ -72,7 +72,7 @@
                         {
                             id: 'Item2',
                             type: 'ellipse',
-                            rect: ['141px', '187px', '27px', '27px', 'auto', 'auto'],
+                            rect: ['141px', '131px', '27px', '27px', 'auto', 'auto'],
                             borderRadius: ["50%", "50%", "50%", "50%"],
                             fill: ["rgba(192,192,192,1)"],
                             stroke: [0,"rgb(0, 0, 0)","none"],
@@ -81,7 +81,7 @@
                         {
                             id: 'Item3',
                             type: 'ellipse',
-                            rect: ['109px', '187px', '27px', '27px', 'auto', 'auto'],
+                            rect: ['109px', '131px', '27px', '27px', 'auto', 'auto'],
                             borderRadius: ["50%", "50%", "50%", "50%"],
                             fill: ["rgba(192,192,192,1)"],
                             stroke: [0,"rgb(0, 0, 0)","none"],
@@ -90,7 +90,7 @@
                         {
                             id: 'Item4',
                             type: 'ellipse',
-                            rect: ['78px', '187px', '27px', '27px', 'auto', 'auto'],
+                            rect: ['78px', '131px', '27px', '27px', 'auto', 'auto'],
                             borderRadius: ["50%", "50%", "50%", "50%"],
                             fill: ["rgba(192,192,192,1)"],
                             stroke: [0,"rgb(0, 0, 0)","none"],
@@ -99,7 +99,7 @@
                         {
                             id: 'Item5',
                             type: 'ellipse',
-                            rect: ['13px', '187px', '27px', '27px', 'auto', 'auto'],
+                            rect: ['13px', '131px', '27px', '27px', 'auto', 'auto'],
                             borderRadius: ["50%", "50%", "50%", "50%"],
                             fill: ["rgba(192,192,192,1)"],
                             stroke: [0,"rgb(0, 0, 0)","none"],
@@ -109,7 +109,8 @@
                     style: {
                         '${Stage}': {
                             isStage: true,
-                            rect: ['null', 'null', '550px', '400px', 'auto', 'auto'],
+                            rect: ['null', 'null', '550px', '300px', 'auto', 'auto'],
+                            sizeRange: ['','550px','',''],
                             overflow: 'hidden',
                             fill: ["rgba(255,255,255,1)"]
                         }
@@ -203,24 +204,24 @@
                             '-90deg'
                         ],
                         [
-                            "eid82",
-                            "left",
+                            "eid114",
+                            "rotateZ",
                             0,
                             0,
                             "linear",
-                            "${Item2}",
-                            '109px',
-                            '109px'
+                            "${Item5}",
+                            '0deg',
+                            '0deg'
                         ],
                         [
-                            "eid88",
-                            "left",
-                            1170,
-                            80,
+                            "eid190",
+                            "rotateZ",
+                            5250,
+                            1000,
                             "linear",
-                            "${Item2}",
-                            '109px',
-                            '141px'
+                            "${Item5}",
+                            '0deg',
+                            '-30deg'
                         ],
                         [
                             "eid94",
@@ -253,14 +254,14 @@
                             '141px'
                         ],
                         [
-                            "eid58",
+                            "eid244",
                             "top",
                             0,
                             0,
                             "linear",
                             "${Item1}",
-                            '187px',
-                            '187px'
+                            '131px',
+                            '131px'
                         ],
                         [
                             "eid225",
@@ -283,54 +284,34 @@
                             '141px'
                         ],
                         [
-                            "eid109",
+                            "eid239",
                             "top",
                             0,
                             0,
                             "linear",
                             "${Item4}",
-                            '187px',
-                            '187px'
+                            '131px',
+                            '131px'
                         ],
                         [
-                            "eid83",
+                            "eid241",
                             "top",
                             0,
                             0,
                             "linear",
                             "${Item2}",
-                            '187px',
-                            '187px'
+                            '131px',
+                            '131px'
                         ],
                         [
-                            "eid86",
-                            "top",
-                            1170,
-                            0,
-                            "linear",
-                            "${Item2}",
-                            '187px',
-                            '187px'
-                        ],
-                        [
-                            "eid95",
+                            "eid240",
                             "top",
                             0,
                             0,
                             "linear",
                             "${Item3}",
-                            '187px',
-                            '187px'
-                        ],
-                        [
-                            "eid98",
-                            "top",
-                            1170,
-                            0,
-                            "linear",
-                            "${Item3}",
-                            '187px',
-                            '187px'
+                            '131px',
+                            '131px'
                         ],
                         [
                             "eid158",
@@ -381,6 +362,26 @@
                             "${Item12}",
                             '-150deg',
                             '-180deg'
+                        ],
+                        [
+                            "eid249",
+                            "background-color",
+                            0,
+                            0,
+                            "linear",
+                            "${Item12}",
+                            'rgba(192,192,192,1.00)',
+                            'rgba(192,192,192,1.00)'
+                        ],
+                        [
+                            "eid255",
+                            "background-color",
+                            6000,
+                            250,
+                            "linear",
+                            "${Item12}",
+                            'rgba(192,192,192,1)',
+                            'rgba(255,155,254,1.00)'
                         ],
                         [
                             "eid74",
@@ -443,14 +444,44 @@
                             '-150deg'
                         ],
                         [
-                            "eid149",
+                            "eid242",
                             "top",
                             0,
                             0,
                             "linear",
+                            "${Item11}",
+                            '131px',
+                            '131px'
+                        ],
+                        [
+                            "eid251",
+                            "left",
+                            0,
+                            6109,
+                            "linear",
                             "${Item12}",
-                            '187px',
-                            '187px'
+                            '141px',
+                            '142px'
+                        ],
+                        [
+                            "eid252",
+                            "left",
+                            6109,
+                            141,
+                            "linear",
+                            "${Item12}",
+                            '142px',
+                            '141px'
+                        ],
+                        [
+                            "eid205",
+                            "left",
+                            6250,
+                            500,
+                            "linear",
+                            "${Item12}",
+                            '141px',
+                            '320px'
                         ],
                         [
                             "eid111",
@@ -493,34 +524,74 @@
                             '141px'
                         ],
                         [
-                            "eid214",
-                            "top",
-                            0,
-                            0,
-                            "linear",
-                            "${Item11}",
-                            '187px',
-                            '187px'
-                        ],
-                        [
-                            "eid114",
-                            "rotateZ",
+                            "eid119",
+                            "left",
                             0,
                             0,
                             "linear",
                             "${Item5}",
-                            '0deg',
-                            '0deg'
+                            '13px',
+                            '13px'
                         ],
                         [
-                            "eid190",
-                            "rotateZ",
-                            5250,
-                            1000,
+                            "eid122",
+                            "left",
+                            1170,
+                            80,
                             "linear",
                             "${Item5}",
-                            '0deg',
-                            '-30deg'
+                            '13px',
+                            '45px'
+                        ],
+                        [
+                            "eid128",
+                            "left",
+                            2425,
+                            75,
+                            "linear",
+                            "${Item5}",
+                            '45px',
+                            '78px'
+                        ],
+                        [
+                            "eid132",
+                            "left",
+                            3670,
+                            80,
+                            "linear",
+                            "${Item5}",
+                            '78px',
+                            '110px'
+                        ],
+                        [
+                            "eid148",
+                            "left",
+                            4925,
+                            75,
+                            "linear",
+                            "${Item5}",
+                            '110px',
+                            '141px'
+                        ],
+                        [
+                            "eid82",
+                            "left",
+                            0,
+                            0,
+                            "linear",
+                            "${Item2}",
+                            '109px',
+                            '109px'
+                        ],
+                        [
+                            "eid88",
+                            "left",
+                            1170,
+                            80,
+                            "linear",
+                            "${Item2}",
+                            '109px',
+                            '141px'
                         ],
                         [
                             "eid84",
@@ -723,84 +794,24 @@
                             '0deg'
                         ],
                         [
-                            "eid112",
+                            "eid236",
+                            "top",
+                            5250,
+                            0,
+                            "linear",
+                            "${wheel_12_12}",
+                            '5px',
+                            '5px'
+                        ],
+                        [
+                            "eid253",
                             "top",
                             0,
-                            0,
-                            "linear",
-                            "${Item5}",
-                            '187px',
-                            '187px'
-                        ],
-                        [
-                            "eid119",
-                            "left",
-                            0,
-                            0,
-                            "linear",
-                            "${Item5}",
-                            '13px',
-                            '13px'
-                        ],
-                        [
-                            "eid122",
-                            "left",
-                            1170,
-                            80,
-                            "linear",
-                            "${Item5}",
-                            '13px',
-                            '45px'
-                        ],
-                        [
-                            "eid128",
-                            "left",
-                            2425,
-                            75,
-                            "linear",
-                            "${Item5}",
-                            '45px',
-                            '78px'
-                        ],
-                        [
-                            "eid132",
-                            "left",
-                            3670,
-                            80,
-                            "linear",
-                            "${Item5}",
-                            '78px',
-                            '110px'
-                        ],
-                        [
-                            "eid148",
-                            "left",
-                            4925,
-                            75,
-                            "linear",
-                            "${Item5}",
-                            '110px',
-                            '141px'
-                        ],
-                        [
-                            "eid150",
-                            "left",
-                            0,
-                            0,
+                            6109,
                             "linear",
                             "${Item12}",
-                            '141px',
-                            '141px'
-                        ],
-                        [
-                            "eid205",
-                            "left",
-                            6250,
-                            500,
-                            "linear",
-                            "${Item12}",
-                            '141px',
-                            '320px'
+                            '131px',
+                            '130px'
                         ]
                     ]
                 }

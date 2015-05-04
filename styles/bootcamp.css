@@ -226,6 +226,9 @@ nav {
   cursor: pointer;
   background: none;
 }
+.animation-container {
+  margin-top: 1em;
+}
 /* Adjust mobile type settings based on common standard */
 @media screen and (max-width: 330px) {
   #logo {
@@ -250,7 +253,7 @@ nav {
     display: none;
   }
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   .animation-section {
     clear: both;
     overflow: hidden;
