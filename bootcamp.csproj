@@ -21,7 +21,9 @@
     <Content Include="faq.html" />
     <Content Include="glossary.html" />
     <Content Include="basics.html" />
+    <Content Include="images\bottle.svg" />
     <Content Include="images\menu.png" />
+    <Content Include="images\wheel_12_1.svg" />
     <Content Include="indexing_edge.js" />
     <Content Include="indexing_edgeActions.js" />
     <Content Include="script\bootcamp.js" />
