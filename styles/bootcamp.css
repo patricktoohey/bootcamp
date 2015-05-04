@@ -13,10 +13,10 @@
   margin: 1em 1%;
 }
 .tutorial-links {
-  margin-bottom: 3em;
   margin-left: 1%;
   clear: both;
   overflow: hidden;
+  margin-top: 1em;
 }
 body {
   font-size: 100%;
@@ -158,10 +158,12 @@ footer {
 }
 #footer-content {
   max-width: 1020px;
+  width: 96%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 1em;
   padding-bottom: 1em;
+  padding-left: 2%;
 }
 div header {
   background-color: #004494;
@@ -249,7 +251,7 @@ nav {
   }
 }
 @media screen and (min-width: 800px) {
-  #animation-section {
+  .animation-section {
     clear: both;
     overflow: hidden;
     box-sizing: border-box;

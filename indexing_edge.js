@@ -22,9 +22,10 @@
                 version: "5.0.1",
                 minimumCompatibleVersion: "5.0.0",
                 build: "5.0.1.386",
-                scaleToFit: "none",
+                scaleToFit: "width",
                 centerStage: "none",
                 resizeInstances: false,
+                bScaleToFitParent: true,
                 content: {
                     dom: [
                         {
