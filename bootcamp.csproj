@@ -22,6 +22,8 @@
     <Content Include="glossary.html" />
     <Content Include="basics.html" />
     <Content Include="images\menu.png" />
+    <Content Include="indexing_edge.js" />
+    <Content Include="indexing_edgeActions.js" />
     <Content Include="script\bootcamp.js" />
     <Content Include="script\edge.5.0.1.min.js" />
     <Content Include="svg\handling.svg" />
