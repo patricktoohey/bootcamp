@@ -23,6 +23,7 @@
     <Content Include="basics.html" />
     <Content Include="images\menu.png" />
     <Content Include="script\bootcamp.js" />
+    <Content Include="script\edge.5.0.1.min.js" />
     <Content Include="svg\handling.svg" />
     <Content Include="svg\wheel_composite.svg" />
     <Content Include="tutorials.html" />
