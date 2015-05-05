@@ -18,10 +18,10 @@
     <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="handling.html" />
     <Content Include="faq.html" />
     <Content Include="glossary.html" />
     <Content Include="basics.html" />
+    <Content Include="handling.html" />
     <Content Include="images\bottle.svg" />
     <Content Include="images\menu.png" />
     <Content Include="images\wheel_12_1.svg" />
