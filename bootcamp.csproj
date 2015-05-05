@@ -31,6 +31,7 @@
     <Content Include="script\edge.5.0.1.min.js" />
     <Content Include="svg\handling.svg" />
     <Content Include="svg\in-wheel-slip.svg" />
+    <Content Include="svg\outfeed-error-on-in-wheel-slip.svg" />
     <Content Include="svg\packages.svg" />
     <Content Include="svg\wheel_composite.svg" />
     <Content Include="tutorials - Copy.html" />
