@@ -245,6 +245,9 @@ nav {
     width: 96%;
     padding-top: 1em;
   }
+  #menu-icon {
+    top: 3em;
+  }
   nav {
     width: 96%;
     padding-left: 2%;
