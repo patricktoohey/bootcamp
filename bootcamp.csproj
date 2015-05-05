@@ -34,7 +34,6 @@
     <Content Include="svg\outfeed-error-on-in-wheel-slip.svg" />
     <Content Include="svg\packages.svg" />
     <Content Include="svg\wheel_composite.svg" />
-    <Content Include="tutorials - Copy.html" />
     <Content Include="tutorials.html" />
     <Content Include="index.html" />
     <Content Include="styles\bootcamp.css">
