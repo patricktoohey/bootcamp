@@ -19,19 +19,19 @@
         }
     </style>
     <script>
-        AdobeEdge.loadComposition('indexing', 'EDGE-1256124860', {
-            scaleToFit: "width",
-            centerStage: "none",
-            minW: "0",
-            maxW: "550px",
-            width: "550px",
-            height: "300px",
-            bScaleToFitParent: true
-        }, { dom: [] }, { dom: [] });
+    AdobeEdge.loadComposition('indexing', 'EDGE-1256124860', {
+        scaleToFit: "width",
+        centerStage: "none",
+        minW: "0",
+        maxW: "none",
+        width: "550px",
+        height: "300px",
+        bScaleToParent: true
+    }, { "style": { "${symbolSelector}": { "isStage": "true", "rect": ["undefined", "undefined", "478px", "300px"] } }, "dom": {} }, { "style": { "${symbolSelector}": { "isStage": "true", "rect": ["undefined", "undefined", "478px", "300px"], "fill": ["rgba(255,255,255,1)"] } }, "dom": {} });
     </script>
 </head>
 <body>
-    <div id="container">
+    <div id="cc">
         <header>
             <div id="menu">
                 <div id="logo">
@@ -65,21 +65,19 @@
                     instead, will focus on the essential theory of operation.
                 </p>
                 <hr />
-                <div class="animation-section">
-                    <div class="animation-caption">
-                        <h4>Starweigh</h4>
-                        <p>
-                            The Starweigh product line requires specific mechanical
-                            settings to ensure that optimal weighing is achieved. Starweigh
-                            controls are designed specifically for products where accuracy
-                            is most critical.
-                        </p>
-                    </div>
-                    <div class="animation-container">
-                        <div id="Stage" class="EDGE-1256124860"></div>
-                    </div>
+                <div style="float: left; overflow:hidden; width:48%; margin-right: 2%">
+                    <h4>Starweigh</h4>
+                    <p>
+                        The Starweigh product line requires specific mechanical
+                        settings to ensure that optimal weighing is achieved. Starweigh
+                        controls are designed specifically for products where accuracy
+                        is most critical.
+                    </p>
                 </div>
-            </section>
+                <div id="container" style="float: left; overflow:visible; width:48%; padding-right: 2%">
+                <div id="Stage" class="EDGE-1256124860"></div>
+                    </div>
+</section>
             <div class="concept-break">
                 <a href="#">Back to top</a>
             </div>
