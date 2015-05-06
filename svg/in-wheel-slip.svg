@@ -10,7 +10,7 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 531 345"
+   viewBox="0 0 288.90625 177.28125"
    preserveAspectRatio="xMidYMid"
    id="svg2"
    version="1.1"
@@ -42,18 +42,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="612.84974"
-     inkscape:cy="282.13574"
+     inkscape:zoom="1.979899"
+     inkscape:cx="83.565538"
+     inkscape:cy="118.80985"
      inkscape:document-units="px"
      inkscape:current-layer="layer4"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1366"
-     inkscape:window-height="746"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1600"
+     inkscape:window-height="838"
+     inkscape:window-x="1358"
+     inkscape:window-y="142"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -61,11 +61,11 @@
      fit-margin-bottom="0">
     <sodipodi:guide
        orientation="0,1"
-       position="-408.70985,213.39665"
+       position="-557.20985,117.9279"
        id="guide3985" />
     <sodipodi:guide
        orientation="1,0"
-       position="-496.89565,-420.72215"
+       position="-645.39565,-516.1909"
        id="guide5504" />
   </sodipodi:namedview>
   <metadata
@@ -84,13 +84,13 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="Rejecter"
-     transform="translate(-957.28125,-425.625)" />
+     transform="translate(-1105.7813,-497.875)" />
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Schematic"
      style="display:none"
-     transform="translate(-957.28125,-425.625)">
+     transform="translate(-1105.7813,-497.875)">
     <image
        y="7.3621826"
        x="-465"
@@ -105,19 +105,19 @@
      inkscape:groupmode="layer"
      id="layer1"
      style="display:inline"
-     transform="translate(-957.28125,-425.625)" />
+     transform="translate(-1105.7813,-497.875)" />
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="TopPlate"
      style="display:inline"
-     transform="translate(-957.28125,-425.625)" />
+     transform="translate(-1105.7813,-497.875)" />
   <g
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Conveyor"
      style="display:inline"
-     transform="translate(-957.28125,-425.625)">
+     transform="translate(-1105.7813,-497.875)">
     <rect
        style="fill:#eeeeee;stroke:#333333;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        id="rect3995-7"
@@ -685,7 +685,7 @@
        transform="matrix(-0.9597319,0.28091753,-0.28091753,-0.9597319,1736.6704,1105.9747)" />
     <path
        sodipodi:type="arc"
-       style="fill:#cccccf;fill-opacity:1;fill-rule:nonzero;stroke:#333333;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       style="fill:#ff9bff;fill-opacity:1;fill-rule:nonzero;stroke:#333333;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        id="path4157-42-3-89-49-5-2"
        sodipodi:cx="413.93353"
        sodipodi:cy="648.29102"
@@ -695,7 +695,7 @@
        transform="matrix(-0.99970655,0.02422352,-0.02422352,-0.99970655,1551.0963,1258.9875)" />
     <path
        sodipodi:type="arc"
-       style="fill:#cccccf;fill-opacity:1;fill-rule:nonzero;stroke:#333333;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       style="fill:#ff9bff;fill-opacity:1;fill-rule:nonzero;stroke:#333333;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        id="path4157-4-7-1-3-63-9-9"
        sodipodi:cx="413.93353"
        sodipodi:cy="648.29102"
@@ -754,16 +754,23 @@
        height="52.284077"
        x="1026.3932"
        y="573.112" />
+    <rect
+       style="fill:none;stroke:#ffffff;stroke-width:0.98509336;stroke-opacity:1"
+       id="rect4697"
+       width="287.90839"
+       height="176.28651"
+       x="1106.2712"
+       y="498.38144" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Wheel"
      style="display:inline"
-     transform="translate(-957.28125,-425.625)" />
+     transform="translate(-1105.7813,-497.875)" />
   <g
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="Motor"
-     transform="translate(-957.28125,-425.625)" />
+     transform="translate(-1105.7813,-497.875)" />
 </svg>

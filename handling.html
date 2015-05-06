@@ -19,7 +19,7 @@
             <div id="menu">
                 <div id="logo">
                     <h1 class="product-line"><a href="index.html">Starweigh</a></h1>
-                    <h1><a href ="index.html">Boot Camp</a></h1>
+                    <h1><a href="index.html">Boot Camp</a></h1>
                     <img id="menu-icon" src="images/menu.png" />
                 </div>
                 <nav>
@@ -46,38 +46,58 @@
                 </ul>
                 <hr />
                 <h4 id="infeed">Infeed</h4>
-                <p>
-                    The initial product handling task occurs at the infeed of the 
-                    wheel, at index zero. As items flow into the wheel, they will 
-                    begin to backup until the package eye is broken. 
-                </p>
+                <div class="concept">
+                    <p class="concept-description">
+                        The initial product handling task occurs at the infeed of the
+                        wheel&mdash;at <a href="glossary.html/#definition-index-noun">index</a> zero.
+                        As items flow into the wheel, they will begin to backup until the
+                        <a href="glossary.html/#definition-package-eye">package eye</a> is broken.
+                        If the package eye is broken for a set
+                        period of time, the wheel will begin indexing.
+                    </p>
+                    <img class="concept-illustration" src="svg/infeed-backup.svg" alt="The wheel will begin indexing once a sufficient backup exists at the infeed." />
+                </div>
+                <div class="concept">
+                    <p class="concept-description">
+                        The infeed area of the system is optionally used to detect the
+                        presence of fallen items&mdash;also know as bottle&ndash;down detection.
+                        Bottle&ndash;down detection require an additional sensor, which&mdash;when
+                        paired with the package eye&mdash;detects the presence of a fallen item.
+                    </p>
+                    <img class="concept-illustration" src="svg/bottle-down.svg" alt="A bottle&ensp;down sensor detects fallen items at the infeed." />
+
+                </div>
+
             </section>
             <div class="concept-break">
                 <a href="#">Back to top</a>
             </div>
             <section>
                 <h4 id="in-wheel">In the Wheel</h4>
-                <p>
-                    Product handling issues inside the wheel are generally related to
-                    the selected acceleration and velocity of the wheel. As these values
-                    increase&mdash;in an effort to achieve higher throughput&mdash;the
-                    ability to properly handle the items is reduced.
-                    <a href="glossary.html#definition-item">Items</a> are more
-                    likely to slide out of the wheel at higher speeds and levels of
-                    acceleration.
-                </p>
-                <div>
+                <div class="concept">
+                    <p class="concept-description">
+                        Product handling issues inside the wheel are generally related to
+                        the selected acceleration and velocity of the wheel. As these values
+                        increase&mdash;in an effort to achieve higher throughput&mdash;the
+                        ability to properly handle the items is reduced.
+                        <a href="glossary.html#definition-item">Items</a> are more
+                        likely to slide out of the wheel at higher speeds and levels of
+                        acceleration.
+                    </p>
+
                     <img class="concept-illustration" src="svg/in-wheel-slip.svg" alt="Items may slip out of wheel at high velocity or accerlation." />
+
                 </div>
-                <p>
-                    Item slips that occur inside the wheel will eventually result in
-                    an error at the rejector. The item the slipped out of the wheel
-                    will be expected at the rejector when the associated slug reaches
-                    the rejector photoeye. When the eye detects the missing item, an
-                    error will be reported, and the line will likely be stopped.
-                </p>
-                <div>
+                <div class="concept">
+                    <p class="concept-description">
+                        Item slips that occur inside the wheel will eventually result in
+                        an error at the rejector. The item the slipped out of the wheel
+                        will be expected at the rejector when the associated slug reaches
+                        the rejector photoeye. When the eye detects the missing item, an
+                        error will be reported, and the line will likely be stopped.
+                    </p>
                     <img class="concept-illustration" src="svg/outfeed-error-on-in-wheel-slip.svg" alt="Items that slip in the wheel will be detected at the rejector." />
+
                 </div>
             </section>
             <div class="concept-break">
