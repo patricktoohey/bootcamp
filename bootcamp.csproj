@@ -29,6 +29,7 @@
     <Content Include="indexing_edgeActions.js" />
     <Content Include="script\bootcamp.js" />
     <Content Include="script\edge.5.0.1.min.js" />
+    <Content Include="svg\bottle-down.svg" />
     <Content Include="svg\handling.svg" />
     <Content Include="svg\in-wheel-slip.svg" />
     <Content Include="svg\infeed-backup.svg" />
