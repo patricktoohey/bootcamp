@@ -1,4 +1,21 @@
-﻿.tutorial-link p {
+﻿@grey-20-percent: #CCCCCC;
+
+.tutorial-link {
+    width: 31%;
+    float: left;
+    background-color: @grey-20-percent;
+    box-shadow: 2px 2px 5px fade(black, 75%);
+    margin: 1em 1%;
+}
+
+.tutorial-links {
+    margin-left: 1%;
+    clear: both;
+    overflow: hidden;
+    margin-top: 1em;
+}
+
+.tutorial-link p {
     padding-left: 0;
     text-align: center;
     padding-bottom: 0.5em;
@@ -36,7 +53,8 @@ a.tutorial-link {
     clear: both;
     margin-bottom: 1em;
     margin-top: 1em;
-    box-sizing: border-box;
+    box-sizing: content-box;
+    -webkit-box-sizing: border-box;    
 }
 
 @media screen and (max-width: 700px) {
