@@ -23,17 +23,29 @@
     <Content Include="basics.html" />
     <Content Include="handling.html" />
     <Content Include="images\bottle.svg" />
+    <Content Include="images\checkbox-checked.png" />
+    <Content Include="images\checkbox.png" />
     <Content Include="images\menu.png" />
     <Content Include="images\wheel_12_1.svg" />
     <Content Include="indexing_edge.js" />
     <Content Include="indexing_edgeActions.js" />
+    <Content Include="script\handling.js" />
+    <Content Include="script\basics.js" />
     <Content Include="script\bootcamp.js" />
     <Content Include="script\edge.5.0.1.min.js" />
+    <Content Include="styles\tutorial.css">
+      <DependentUpon>tutorial.less</DependentUpon>
+    </Content>
+    <Content Include="styles\tutorial.min.css">
+      <DependentUpon>tutorial.css</DependentUpon>
+    </Content>
     <Content Include="svg\bottle-down.svg" />
+    <Content Include="svg\conveyor-slip.svg" />
     <Content Include="svg\handling.svg" />
     <Content Include="svg\in-wheel-slip.svg" />
     <Content Include="svg\infeed-backup.svg" />
     <Content Include="svg\outfeed-error-on-in-wheel-slip.svg" />
+    <Content Include="svg\outfeed-expected.svg" />
     <Content Include="svg\packages.svg" />
     <Content Include="svg\wheel_composite.svg" />
     <Content Include="tutorials.html" />
@@ -52,6 +64,10 @@
     <Content Include="styles\bootcamp.less" />
     <Content Include="styles\bootcamp.css.map">
       <DependentUpon>bootcamp.css</DependentUpon>
+    </Content>
+    <Content Include="styles\tutorial.less" />
+    <Content Include="styles\tutorial.css.map">
+      <DependentUpon>tutorial.css</DependentUpon>
     </Content>
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>

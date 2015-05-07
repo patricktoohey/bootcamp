@@ -3,7 +3,7 @@
 
     if (displayCurrent === "none" || displayCurrent == "") {
         document.getElementById("navigation").style.display = "block";
-        document.getElementById("navigation").style.height = "5em";
+        document.getElementById("navigation").style.height = "7em";
     }
     else {
         document.getElementById("navigation").style.display = "none";

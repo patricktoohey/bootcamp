@@ -47,12 +47,42 @@ h4 {
   margin-bottom: 0.8em;
   font-size: 1.25em;
 }
-.tutorial-img {
-  background: white;
-  max-height: 224px;
+header {
+  background-color: #004494;
+  width: 100%;
+  color: white;
+  font-family: 'ITCAvantGardeW01-CnBk';
+  overflow: hidden;
+  clear: both;
+}
+section {
+  clear: both;
+  overflow: hidden;
+  width: 96%;
+  max-width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer {
+  background-color: #004494;
+  color: white;
+  width: 100%;
+}
+#footer-content {
+  max-width: 1020px;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2%;
+}
+.local {
+  font-family: 'ITCAvantGardeW01-CnBd';
 }
 #searchform {
   overflow: hidden;
+  min-width: 110px;
 }
 #search {
   background: white;
@@ -75,6 +105,7 @@ input[type=submit] {
 p {
   line-height: 120%;
   padding-left: 2%;
+  margin-bottom: 1em;
 }
 a {
   padding-left: 2%;
@@ -85,44 +116,18 @@ a {
 p a {
   padding-left: 0;
 }
-a.tutorial-link {
-  padding-left: 0;
-}
 nav a {
   padding-left: 0;
   color: white;
   font-family: 'ITCAvantGardeW01-CnBk';
   font-size: 1.33em;
 }
-.local {
-  font-family: 'ITCAvantGardeW01-CnBd';
-}
-.tutorial-link p {
-  padding-left: 0;
-  text-align: center;
-  padding-bottom: 0.5em;
-  padding-top: 0.5em;
-  display: block;
+.starweigh-char-space {
+  letter-spacing: 0.05em;
 }
 #mt-logo {
   font-family: 'ITCAvantGardeW01-CnBd';
   font-size: 1.6em;
-}
-header {
-  background-color: #004494;
-  width: 100%;
-  color: white;
-  font-family: 'ITCAvantGardeW01-CnBk';
-  overflow: hidden;
-  clear: both;
-}
-section {
-  clear: both;
-  overflow: hidden;
-  width: 96%;
-  max-width: 1020px;
-  margin-left: auto;
-  margin-right: auto;
 }
 nav a:hover {
   border-bottom-style: solid;
@@ -155,20 +160,6 @@ hr {
   margin-right: 2%;
   margin-top: 1.5em;
 }
-footer {
-  background-color: #004494;
-  color: white;
-  width: 100%;
-}
-#footer-content {
-  max-width: 1020px;
-  width: 96%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  padding-left: 2%;
-}
 div header {
   background-color: #004494;
 }
@@ -187,7 +178,7 @@ h1.product-line a {
   width: 73%;
   float: left;
   background-color: #004494;
-  padding-top: 4em;
+  padding-top: 6em;
   padding-bottom: 1em;
 }
 nav {
@@ -214,18 +205,15 @@ nav {
   font-family: 'ITCAvantGardeW01-CnBk';
   color: white;
   position: absolute;
-  right: 2%;
-  max-width: 1020px;
-  width: 96%;
+  right: 4%;
   text-align: right;
-  padding-right: 2%;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
 #menu-icon {
   position: absolute;
   display: none;
-  right: 1em;
+  right: 4%;
   top: 4em;
   cursor: pointer;
   background: none;
@@ -239,28 +227,22 @@ nav {
   clear: both;
   width: 33%;
 }
-.concept-illustration {
-  width: 48%;
-  float: left;
-  overflow: hidden;
-  margin-top: 1em;
-  margin-bottom: 1em;
+.feedback {
+  font-size: 0.8em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
 }
-.concept-description {
-  width: 46%;
-  padding-right: 2%;
-  float: left;
-  overflow: hidden;
-  margin-top: 1em;
+.feedback-checkbox {
+  position: relative;
+  top: 0.3em;
+  cursor: pointer;
 }
-.concept {
-  clear: both;
-  margin-bottom: 1em;
-  margin-top: 1em;
-  box-sizing: border-box;
+.feedback-label {
+  display: inline-block;
+  cursor: pointer;
 }
 /* Adjust mobile type settings based on common standard */
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 500px) {
   #logo {
     width: 96%;
     padding-top: 1em;
@@ -273,8 +255,8 @@ nav {
     padding-left: 2%;
     padding-top: 0;
   }
-  .tutorial-link {
-    width: 96%;
+  #searchform {
+    clear: both;
   }
   #search {
     width: 100%;
@@ -301,20 +283,6 @@ nav {
     overflow: visible;
     width: 100%;
   }
-  .concept-illustration {
-    margin-top: 1em;
-    width: 96%;
-    padding-right: 2%;
-    padding-left: 2%;
-  }
-  .concept-description {
-    width: 96%;
-    padding-right: 0;
-  }
-  .concept {
-    margin-top: 2em;
-    margin-bottom: 2em;
-  }
 }
 @media screen and (min-width: 900px) {
   .animation-section {
@@ -334,6 +302,29 @@ nav {
     padding-right: 2%;
     overflow: visible;
     width: 48%;
+  }
+  nav ul {
+    vertical-align: baseline;
+    display: block;
+    clear: both;
+  }
+  nav li {
+    float: right;
+    padding-left: 1em !important;
+  }
+  #searchform {
+    clear: both;
+    max-width: 75%;
+    margin-top: 0.3em;
+    padding-left: 25%;
+  }
+  #logo {
+    padding-top: 3em;
+    width: 58%;
+  }
+  nav {
+    padding-top: 3em;
+    width: 41%;
   }
 }
 /*# sourceMappingURL=bootcamp.css.map */

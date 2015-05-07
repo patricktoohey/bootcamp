@@ -11,19 +11,22 @@
     <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/a91cce0f-dd59-4c1d-9686-50cdb9d0210f.css" />
     <link type="text/css" rel="stylesheet" href="styles/reset.css" />
     <link type="text/css" rel="stylesheet" href="styles/bootcamp.css" />
+    <link type="text/css" rel="stylesheet" href="styles/tutorial.css" />
     <script src="script/bootcamp.js"></script>
+    <script src="script/handling.js"></script>
 </head>
 <body>
     <div id="container">
         <header>
             <div id="menu">
                 <div id="logo">
-                    <h1 class="product-line"><a href="index.html">Starweigh</a></h1>
+                    <h1 class="product-line"><a href="index.html">Sta<span class="starweigh-char-space">r</span>weigh</a></h1>
                     <h1><a href="index.html">Boot Camp</a></h1>
                     <img id="menu-icon" src="images/menu.png" />
                 </div>
                 <nav>
                     <ul id="navigation">
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="tutorials.html">Tutorials</a></li>
                         <li><a href="faq.html">FAQ</a></li>
                         <li><a href="glossary.html">Glossary</a></li>
@@ -55,7 +58,8 @@
                         If the package eye is broken for a set
                         period of time, the wheel will begin indexing.
                     </p>
-                    <img class="concept-illustration" src="svg/infeed-backup.svg" alt="The wheel will begin indexing once a sufficient backup exists at the infeed." />
+                    <img class="concept-illustration" src="svg/infeed-backup.svg" 
+                         alt="The wheel will begin indexing once a sufficient backup exists at the infeed." />
                 </div>
                 <div class="concept">
                     <p class="concept-description">
@@ -64,10 +68,19 @@
                         Bottle&ndash;down detection require an additional sensor, which&mdash;when
                         paired with the package eye&mdash;detects the presence of a fallen item.
                     </p>
-                    <img class="concept-illustration" src="svg/bottle-down.svg" alt="A bottle&ensp;down sensor detects fallen items at the infeed." />
+                    <img class="concept-illustration" src="svg/bottle-down.svg" 
+                         alt="A bottle&ensp;down sensor detects fallen items at the infeed." />
 
                 </div>
-
+                <p class="feedback">
+                    Was this helpful?
+                </p>
+                <div style="display: inline">
+                    <p class="feedback-label" id="helpful-yes-infeed">Yes</p>
+                    <img class="feedback-checkbox" id="helpful-yes-check-infeed" src="images/checkbox.png" alt="Check yes." />
+                    <p class="feedback-label" id="helpful-no-infeed">No</p>
+                    <img class="feedback-checkbox" id="helpful-no-check-infeed" src="images/checkbox.png" alt="Check no." />
+                </div>
             </section>
             <div class="concept-break">
                 <a href="#">Back to top</a>
@@ -85,7 +98,8 @@
                         acceleration.
                     </p>
 
-                    <img class="concept-illustration" src="svg/in-wheel-slip.svg" alt="Items may slip out of wheel at high velocity or accerlation." />
+                    <img class="concept-illustration" src="svg/in-wheel-slip.svg" 
+                         alt="Items may slip out of wheel at high velocity or accerlation." />
 
                 </div>
                 <div class="concept">
@@ -96,8 +110,18 @@
                         the rejector photoeye. When the eye detects the missing item, an
                         error will be reported, and the line will likely be stopped.
                     </p>
-                    <img class="concept-illustration" src="svg/outfeed-error-on-in-wheel-slip.svg" alt="Items that slip in the wheel will be detected at the rejector." />
+                    <img class="concept-illustration" src="svg/outfeed-error-on-in-wheel-slip.svg" 
+                         alt="Items that slip in the wheel will be detected at the rejector." />
 
+                </div>
+                <p class="feedback">
+                    Was this helpful?
+                </p>
+                <div style="display: inline">
+                    <p class="feedback-label" id="helpful-yes-in-wheel">Yes</p>
+                    <img class="feedback-checkbox" id="helpful-yes-check-in-wheel" src="images/checkbox.png" alt="Check yes." />
+                    <p class="feedback-label" id="helpful-no-in-wheel">No</p>
+                    <img class="feedback-checkbox" id="helpful-no-check-in-wheel" src="images/checkbox.png" alt="Check no." />
                 </div>
             </section>
             <div class="concept-break">
@@ -105,9 +129,52 @@
             </div>
             <section>
                 <h4 id="outfeed">Outfeed & Rejecting</h4>
-                <p>
-                    Downstream backup
+                <div class="concept">
+                    <p class="concept-description">
+                        The final product handling phase occurs after the items exit the wheel.
+                        At this stage, the items slide off the top&ndash;plate and back onto the
+                        conveyor. At the same time, the items will begin interacting with the
+                        guiderails on either side of the conveyor.
+                        Under normal circumstances, items flow out of the wheel, and progress
+                        down the conveyor as a group. The photoeye at the rejector expects to
+                        see each individual item, and anticipates that they will arrive with a
+                        limited distance between each item.
+                    </p>
+                    <img class="concept-illustration" src="svg/outfeed-expected.svg"
+                         alt="Items are expected to flow out of the wheel in an orderly fashion." />
+                </div>
+                <div class="concept">
+                    <p class="concept-description">
+                        Friction between the item and
+                        the conveyor will determine how much slip will occur before the item
+                        begins moving. Likewise, the interaction between the item and the
+                        guiderails may cause individual items to slip. Significant slipping can
+                        cause errors at the reject station.
+                    </p>
+                    <img class="concept-illustration" src="svg/conveyor-slip.svg"
+                         alt="Items may slip on the conveyor due to bottom friction or guiderail interaction." />
+                </div>
+                <div class="concept">
+                    <p class="concept-description">
+                        The outfeed item position may also be disrupted if items fall from the
+                        conveyor, or are removed by hand. Again, the rejector expects a full slug
+                        of product to reach and be detected by its photoeye. If this is not the
+                        case, the system will signal a fault. Faults caused by a removed or fallen
+                        item should be easily recognized by the operator. System challenges will 
+                        likely be in place to ensure that the control properly recognizes these conditions.
+                    </p>
+                    <img class="concept-illustration" src="svg/removed-item.svg"
+                         alt="Items may slip on the conveyor due to bottom friction or guiderail interaction." />
+                </div>
+                <p class="feedback">
+                    Was this helpful?
                 </p>
+                <div style="display: inline">
+                    <p class="feedback-label" id="helpful-yes-outfeed">Yes</p>
+                    <img class="feedback-checkbox" id="helpful-yes-check-outfeed" src="images/checkbox.png" alt="Check yes." />
+                    <p class="feedback-label" id="helpful-no-outfeed">No</p>
+                    <img class="feedback-checkbox" id="helpful-no-check-outfeed" src="images/checkbox.png" alt="Check no." />
+                </div>
             </section>
             <div class="concept-break">
                 <a href="#">Back to top</a>
