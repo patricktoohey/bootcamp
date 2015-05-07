@@ -1,6 +1,7 @@
 ﻿function BenefitsGood () {
     document.getElementById("helpful-yes-check-benefits").src = "images/checkbox-checked.png";
     document.getElementById("helpful-no-check-benefits").src = "images/checkbox.png";
+    document.getElementById("feedback-benefits").innerText = "Thank you, your feedback is appreciated.";
 
     // placeholder for json event back to server
 }
@@ -8,6 +9,7 @@
 function BenefitsBad() {
     document.getElementById("helpful-yes-check-benefits").src = "images/checkbox.png";
     document.getElementById("helpful-no-check-benefits").src = "images/checkbox-checked.png";
+    document.getElementById("feedback-benefits").innerText = "Thank you, your feedback is appreciated.";
 
     // placeholder for json event back to server
 }
