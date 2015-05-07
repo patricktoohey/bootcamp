@@ -54,10 +54,16 @@
                 <h4 id="definition-bottle-down">Bottle&ndash;Down Detection</h4>
                 <p>
                     Bottle&ndash;Down detection identifies fallen items on the conveyor.
-                    When identified, the conveyors stop so the item can be repositioned. 
-                    If down items are allowed to enter the wheel, they will likely cause 
-                    a jam when the wheel indexes. Bottle&ndash;Down detection utilizes a 
+                    When identified, the conveyors stop so the item can be repositioned.
+                    If down items are allowed to enter the wheel, they will likely cause
+                    a jam when the wheel indexes. Bottle&ndash;Down detection utilizes a
                     second photoeye at the infeed to detect the presence of an upright item.
+                </p>
+                <h4 id="definition-continous-motion">Continuous-Motion Weighing</h4>
+                <p>
+                    A mode of weighing where the items weight is determined while it
+                    is still in motion. This mode of weighing is utilized by
+                    <a href="#definition-3-belt">3&ndash;Belt Checkweighers</a>.
                 </p>
                 <h4 id="definition-index-noun">Index (noun)</h4>
                 <p>
@@ -72,6 +78,13 @@
                     position, and a reverse component, which releases the item so
                     the wheel is not in contact with the item when the weight is
                     measured.
+                </p>
+                <h4 id="definition-intermittent-motion">Intermittent&ndash;Motion Weighing</h4>
+                <p>
+                    A mode of weighing where the motion of the item is halted
+                    prior to collecting its weight. This mode leads to improved
+                    accuracy as excess motion produces noise in the loadcell. This
+                    mode of weighing is utilized by Sta<span class="starweigh-char-space">r</span>weigh controls.
                 </p>
                 <h4 id="definition-item">Item</h4>
                 <p>
@@ -92,9 +105,25 @@
                     A photoeye upstream of the wheel, which is used to detect the
                     presence of items. When the package eye is blocked for a specified
                     period, the wheel will begin indexing. The clear wheel function
-                    should be used to index the wheel when the package eye is not blocked. 
-                    This is often necessary at the end of a production run, when there 
+                    should be used to index the wheel when the package eye is not blocked.
+                    This is often necessary at the end of a production run, when there
                     are not a sufficient number of items available to block the eye.
+                </p>
+                <h4 id="definition-pocket">Pockets</h4>
+                <p>
+                    Pockets are the stop&ndash;points of the wheel. An item 
+                    pocket is a gap in the wheel where an item loads before 
+                    transferring from the conveyor to the scale. A rezero&ndash;pocket, 
+                    is a blocked pocket, which prevents an item from loading. 
+                    The rezero&ndash;pocket provides a gap in production to permit 
+                    the scale to rezero.
+                </p>
+                <h4 id="definition-wheel">Wheel</h4>
+                <p>
+                    Items are transfered from the conveyor to the scale by the wheel.
+                    The wheel includes a number of <a href="#definition-pocket">pockets</a>,
+                    which capture the items and rotate them to the scale. Once weighed,
+                    the items are returned to the outfeed portion of the scale.
                 </p>
             </section>
             <div class="concept-break">
@@ -103,7 +132,7 @@
         </main>
         <footer>
             <div id="footer-content">
-                <h1 id="mt-logo">METTLER TOLEDO</h1>
+                <p id="copyright">&copy;2015 METTLER TOLEDO</p>
             </div>
         </footer>
     </div>

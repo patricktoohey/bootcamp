@@ -31,7 +31,7 @@ h4 {
   font-family: 'ITCAvantGardeW01-CnBd';
   color: #004494;
   margin-top: 2em;
-  margin-bottom: 0.8em;
+  margin-bottom: 1em;
   font-size: 1.25em;
   padding-top: 0.5em;
 }
@@ -116,6 +116,10 @@ nav a {
 #mt-logo {
   font-family: 'ITCAvantGardeW01-CnBd';
   font-size: 1.6em;
+}
+#copyright {
+  font-family: 'ITCAvantGardeW01-CnBk';
+  font-size: 1em;
 }
 nav a:hover {
   border-bottom-style: solid;
@@ -217,10 +221,9 @@ nav {
 }
 .feedback {
   font-size: 0.8em;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 0.5em;
-  clear: both;
-  box-sizing: border-box;
+  clear: left;
 }
 .feedback-checkbox {
   position: relative;

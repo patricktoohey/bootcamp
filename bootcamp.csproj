@@ -47,6 +47,7 @@
     <Content Include="svg\outfeed-error-on-in-wheel-slip.svg" />
     <Content Include="svg\outfeed-expected.svg" />
     <Content Include="svg\packages.svg" />
+    <Content Include="svg\pocket_count.svg" />
     <Content Include="svg\removed-item.svg" />
     <Content Include="svg\wheel_composite.svg" />
     <Content Include="tutorials.html" />
