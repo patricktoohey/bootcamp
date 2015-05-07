@@ -2,6 +2,7 @@
 function InfeedGood() {
     document.getElementById("helpful-yes-check-infeed").src = "images/checkbox-checked.png";
     document.getElementById("helpful-no-check-infeed").src = "images/checkbox.png";
+    document.getElementById("feedback-infeed").innerText = "Thank you, your feedback is appreciated.";
 
     // placeholder for json event back to server
 }
@@ -9,6 +10,7 @@ function InfeedGood() {
 function InfeedBad() {
     document.getElementById("helpful-yes-check-infeed").src = "images/checkbox.png";
     document.getElementById("helpful-no-check-infeed").src = "images/checkbox-checked.png";
+    document.getElementById("feedback-infeed").innerText = "Thank you, your feedback is appreciated.";
 
     // placeholder for json event back to server
 }
@@ -17,6 +19,7 @@ function InfeedBad() {
 function InWheelGood() {
     document.getElementById("helpful-yes-check-in-wheel").src = "images/checkbox-checked.png";
     document.getElementById("helpful-no-check-in-wheel").src = "images/checkbox.png";
+    document.getElementById("feedback-in-wheel").innerText = "Thank you, your feedback is appreciated.";
 
     // placeholder for json event back to server
 }
@@ -24,6 +27,7 @@ function InWheelGood() {
 function InWheelBad() {
     document.getElementById("helpful-yes-check-in-wheel").src = "images/checkbox.png";
     document.getElementById("helpful-no-check-in-wheel").src = "images/checkbox-checked.png";
+    document.getElementById("feedback-in-wheel").innerText = "Thank you, your feedback is appreciated.";
 
     // placeholder for json event back to server
 }
@@ -32,6 +36,7 @@ function InWheelBad() {
 function OutfeedGood() {
     document.getElementById("helpful-yes-check-outfeed").src = "images/checkbox-checked.png";
     document.getElementById("helpful-no-check-outfeed").src = "images/checkbox.png";
+    document.getElementById("feedback-outfeed").innerText = "Thank you, your feedback is appreciated.";
 
     // placeholder for json event back to server
 }
@@ -39,6 +44,7 @@ function OutfeedGood() {
 function OutfeedBad() {
     document.getElementById("helpful-yes-check-outfeed").src = "images/checkbox.png";
     document.getElementById("helpful-no-check-outfeed").src = "images/checkbox-checked.png";
+    document.getElementById("feedback-outfeed").innerText = "Thank you, your feedback is appreciated.";
 
     // placeholder for json event back to server
 }
