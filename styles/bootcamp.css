@@ -210,9 +210,6 @@ nav {
   cursor: pointer;
   background: none;
 }
-.animation-container {
-  margin-top: 1em;
-}
 #Stage {
   box-sizing: border-box;
   overflow: hidden;
