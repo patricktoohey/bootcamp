@@ -7,13 +7,13 @@
 }
 body {
   font-size: 100%;
-  font-family: 'ITCAvantGardeW01-CnBk', Tahoma, sans-serif;
+  font-family: 'ITCAvantGardeW01-CnBk', 'Tahoma', sans-serif;
 }
 h1 a {
   font-size: 2.25em;
   padding-left: 2%;
   color: white;
-  font-family: 'ITCAvantGardeW01-CnBk', Tahoma, sans-serif;
+  font-family: 'ITCAvantGardeW01-CnBk', 'Tahoma', sans-serif;
 }
 h2 {
   font-size: 1.6em;
@@ -39,7 +39,7 @@ header {
   background-color: #004494;
   width: 100%;
   color: white;
-  font-family: 'ITCAvantGardeW01-CnBk', Tahoma, sans-serif;
+  font-family: 'ITCAvantGardeW01-CnBk', 'Tahoma', sans-serif;
   overflow: hidden;
   clear: both;
 }
@@ -66,7 +66,7 @@ footer {
   padding-left: 2%;
 }
 .local {
-  font-family: 'ITCAvantGardeW01-CnBd', Tahoma, sans-serif;
+  font-family: 'ITCAvantGardeW01-CnBd', 'Tahoma', sans-serif;
 }
 #searchform {
   overflow: hidden;
@@ -76,7 +76,7 @@ footer {
   background: white;
   height: 2em;
   margin-top: 0.5em;
-  font-family: 'ITCAvantGardeW01-CnBk', Tahoma, sans-serif;
+  font-family: 'ITCAvantGardeW01-CnBk', 'Tahoma', sans-serif;
   font-size: 1em;
   padding-left: 0.2em;
 }
@@ -97,7 +97,7 @@ p {
 }
 a {
   padding-left: 2%;
-  font-family: 'ITCAvantGardeW01-CnBd', Tahoma, sans-serif;
+  font-family: 'ITCAvantGardeW01-CnBd', 'Tahoma', sans-serif;
   color: #004494;
   text-decoration: none;
 }
@@ -107,18 +107,18 @@ p a {
 nav a {
   padding-left: 0;
   color: white;
-  font-family: 'ITCAvantGardeW01-CnBk', Tahoma, sans-serif;
+  font-family: 'ITCAvantGardeW01-CnBk', 'Tahoma', sans-serif;
   font-size: 1.33em;
 }
 .starweigh-char-space {
   letter-spacing: 0.05em;
 }
 #mt-logo {
-  font-family: 'ITCAvantGardeW01-CnBd', Tahoma, sans-serif;
+  font-family: 'ITCAvantGardeW01-CnBd', 'Tahoma', sans-serif;
   font-size: 1.6em;
 }
 #copyright {
-  font-family: 'ITCAvantGardeW01-CnBk', Tahoma, sans-serif;
+  font-family: 'ITCAvantGardeW01-CnBk', 'Tahoma', sans-serif;
   font-size: 1em;
 }
 nav a:hover {
@@ -156,7 +156,7 @@ div header {
   background-color: #004494;
 }
 h1.product-line a {
-  font-family: 'ITCAvantGardeW01-CnBd', Tahoma, sans-serif;
+  font-family: 'ITCAvantGardeW01-CnBd', 'Tahoma', sans-serif;
 }
 #menu {
   padding-bottom: 1em;
@@ -180,7 +180,7 @@ nav {
   padding-top: 1em;
 }
 .content-link {
-  font-family: 'ITCAvantGardeW01-CnBd', Tahoma, sans-serif;
+  font-family: 'ITCAvantGardeW01-CnBd', 'Tahoma', sans-serif;
   color: #004494;
   padding-left: 2%;
 }
@@ -190,11 +190,11 @@ nav {
   clear: both;
   overflow: hidden;
   height: 2em;
-  font-family: 'ITCAvantGardeW01-CnBk', Tahoma, sans-serif;
+  font-family: 'ITCAvantGardeW01-CnBk', 'Tahoma', sans-serif;
   margin-top: 1.5em;
 }
 .concept-break a {
-  font-family: 'ITCAvantGardeW01-CnBk', Tahoma, sans-serif;
+  font-family: 'ITCAvantGardeW01-CnBk', 'Tahoma', sans-serif;
   color: white;
   position: absolute;
   right: 4%;
