@@ -26,10 +26,13 @@
                 </div>
                 <nav>
                     <ul id="navigation">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="tutorials.html">Tutorials</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="glossary.html">Glossary</a></li>
+                        <li><a id="link-home" href="index.html">Home</a></li>
+                        <li><a id="link-tutorials" href="tutorials.html">Tutorials</a></li>
+                        <li><a id="link-faq" href="faq.html">FAQ</a></li>
+                        <li><a id="link-glossary" href="glossary.html">Glossary</a></li>
+                        <li><a id="link-faq-right" href="faq.html">FAQ</a></li>
+                        <li><a id="link-tutorials-right" href="tutorials.html">Tutorials</a></li>
+                        <li><a id="link-home-right" href="index.html">Home</a></li>
                     </ul>
                     <form method="get" id="searchform" action="faq.html">
                         <input type="text" placeholder="Search"
@@ -102,6 +105,15 @@
                      alt="Items enter the wheel at pocket 1." />
                 <p>The pockets are either open&mdash;so they accept
                     an item&mdash;or closed to prevent the entry of an item. </p>
+                <p id="feedback-dimensions" class="feedback">
+                    Was this helpful?
+                </p>
+                <div style="display: inline">
+                    <p class="feedback-label" id="helpful-yes-dimensions">Yes</p>
+                    <img class="feedback-checkbox" id="helpful-yes-check-dimensions" src="images/checkbox.png" alt="Check yes." />
+                    <p class="feedback-label" id="helpful-no-dimensions">No</p>
+                    <img class="feedback-checkbox" id="helpful-no-check-dimensions" src="images/checkbox.png" alt="Check no." />
+                </div>
             </section>
             <div class="concept-break">
                 <a href="#">Back to top</a>

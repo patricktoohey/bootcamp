@@ -234,6 +234,18 @@ nav {
   display: inline-block;
   cursor: pointer;
 }
+#link-faq-right {
+  height: 0;
+  display: none;
+}
+#link-tutorials-right {
+  height: 0;
+  display: none;
+}
+#link-home-right {
+  height: 0;
+  display: none;
+}
 /* Adjust mobile type settings based on common standard */
 @media screen and (max-width: 500px) {
   #logo {
@@ -318,6 +330,30 @@ nav {
   nav {
     padding-top: 3em;
     width: 41%;
+  }
+  #link-faq {
+    height: 0;
+    display: none;
+  }
+  #link-tutorials {
+    height: 0;
+    display: none;
+  }
+  #link-home {
+    height: 0;
+    display: none;
+  }
+  #link-faq-right {
+    height: 1em;
+    display: block;
+  }
+  #link-tutorials-right {
+    height: 1em;
+    display: block;
+  }
+  #link-home-right {
+    height: 1em;
+    display: block;
   }
 }
 /*# sourceMappingURL=bootcamp.css.map */

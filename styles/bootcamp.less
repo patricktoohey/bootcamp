@@ -90,7 +90,7 @@ footer {
     padding-left: 2%;
 }
 
-// Navigation styling 
+// Navigation styling
 
 .local {
     font-family: @mt-bold;
@@ -283,8 +283,8 @@ nav {
 }
 
 .feedback-checkbox {
-    position: relative; 
-    top: 0.3em;    
+    position: relative;
+    top: 0.3em;
     cursor: pointer;
 }
 
@@ -293,9 +293,24 @@ nav {
     cursor: pointer;
 }
 
+#link-faq-right {
+    height: 0;
+    display: none;
+}
+
+#link-tutorials-right {
+    height: 0;
+    display: none;
+}
+
+#link-home-right {
+    height: 0;
+    display: none;
+}
+
 /* Adjust mobile type settings based on common standard */
 @media screen and (max-width: 500px) {
-    
+
     #logo {
         width: 96%;
         padding-top: 1em;
@@ -309,7 +324,7 @@ nav {
         width: 96%;
         .left-edge;
         padding-top: 0;
-    }    
+    }
 
     #searchform {
         clear: both;
@@ -343,7 +358,7 @@ nav {
         padding-left: 2%;
         overflow: visible;
         width: 100%;
-    }    
+    }
 }
 
 @media screen and (min-width: 900px) {
@@ -394,5 +409,35 @@ nav {
     nav {
         padding-top: 3em;
         width: 41%;
+    }
+
+    #link-faq {
+        height: 0;
+        display: none;
+    }
+
+    #link-tutorials {
+        height: 0;
+        display: none;
+    }
+
+    #link-home {
+        height: 0;
+        display: none;
+    }
+
+    #link-faq-right {
+        height: 1em;
+        display: block;
+    }
+
+    #link-tutorials-right {
+        height: 1em;
+        display: block;
+    }
+
+    #link-home-right {
+        height: 1em;
+        display: block;
     }
 }
