@@ -50,6 +50,7 @@
     <Content Include="svg\pocket_count.svg" />
     <Content Include="svg\position_count.svg" />
     <Content Include="svg\removed-item.svg" />
+    <Content Include="svg\static-weighing.svg" />
     <Content Include="svg\wheel_composite.svg" />
     <Content Include="tutorials.html" />
     <Content Include="index.html" />
